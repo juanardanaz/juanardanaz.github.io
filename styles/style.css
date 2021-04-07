@@ -276,7 +276,7 @@ input[type="checkbox"] {
 .contenedor-temas{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-family: 'IBM Plex Sans', sans-serif;
     padding: 30px;
 }
