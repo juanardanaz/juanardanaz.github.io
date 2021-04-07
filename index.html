@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD-Podcast Channel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img src="./img/logo.svg" alt="Logo Bd Podcast" class="logo-podcast">
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#podcast">EPISODIOS</a></li>
+                <li><a href="#nosotros-historia">NOSOTROS</a></li>
+                <li><a href="#mujeres-entrevistas">ENTREVISTAS</a></li>
+                <li><a href="#topicos-temas">TÓPICOS</a></li>
+            </ul>
+        </nav>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="lbl-menu">
+            <span id="spn1"></span>
+            <span id="spn2"></span>
+            <span id="spn3"></span>
+        </label>
+        <div class="menu-mobile">
+            <ul>
+                <li>EPISODIOS</li>
+                <li>NOSOTROS</li>
+                <li>ENTREVISTAS</li>
+                <li>TÓPICOS</li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Hello <span class="world">world</span> pale blue dot<span class="dot">.</span></h1>
+            <p>El portal de podcast que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <div class="button-conoce">CONOCÉ MÁS</div>
+        </section>
+        <section class="episodios-podcast" id="podcast">
+            <div class="barra-episodios"></div>
+            <h2 class="episodios">Episodios</h2><br>
+            <div class="container-episodios">
+                <iframe src="https://open.spotify.com/embed-podcast/episode/7AZZy2nJ4R9ZndHW0h2yxt" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/1ezdL2ivAGLwSE6Xbssxqt" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cWta1iiQSfvrdHaCbLkSD" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed-podcast/episode/3cMEFCY80NbGJCGJhnKNcA" allow="encrypted-media"></iframe>
+            </div>
+        </section>
+        <section>
+            <div class="container-historia" id="nosotros-historia">
+                <img src="./img/phone.png" class="celular-historia" alt="Celular">
+                <div class="texto-historia">
+                    <h2>De dónde venimos</h2>
+                    <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light.</p>
+                    <p>Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+                </div>
+            </div>
+        </section>
+        <section class="mujeres-estelares" id="mujeres-entrevistas">
+            <h2 class="titulo-mujeres">Invitadas/os estelares</h2>
+            <div class="container-mujeres">
+                <img src="./img/grace-hopper.png" alt="grace-hopper" class="imagenes-mujeres">
+                <img src="./img/Katie-Bouman.png" alt="katie-bouman" class="imagenes-mujeres">
+                <img src="./img/Margaret_Hamilton.png" alt="margaret-hamilton" class="imagenes-mujeres">
+                <img src="./img/An-E.R.A.Univac-1103-computer-in-the-1950s.png" alt="univac-computer" class="imagenes-mujeres">
+                <img src="./img/Computer-operators-with-an-Eniac-the-world’s-first-programmable-general-purpose-computer.png" alt="computer-operators" class="imagenes-mujeres">
+                <img src="./img/susan-kare.png" alt="susan-kare" class="imagenes-mujeres">
+            </div>                    
+        </section>
+        <section class="temas-podcast" id="topicos-temas">
+            <h2 class="temas">Algunos de nuestros temas</h2>
+            <div class="contenedor-temas">
+                <div class="caja-temas">
+                    <img src="./img/icon1.svg" alt="trabajo-remoto">
+                    <h3>Trabajo remoto</h3>
+                </div>
+                <div class="caja-temas">
+                    <img src="./img/icon2.svg" alt="interior-cabeza">
+                    <h3>Repensando la programación</h3>
+                </div>
+                <div class="caja-temas">
+                    <img src="./img/icon3.svg" alt="computadora">
+                    <h3>Bases del código</h3>
+                </div>
+                <div class="caja-temas">
+                    <img src="./img/icon4.svg" alt="servidor-seguridad">
+                    <h3>Seguridad Informática</h3>
+                </div>
+            </div>
+        </section>
+        <section class="novedades">
+            <div class="barra-novedades"></div>
+            <h2 class="ultimas-novedades">¿Querés las últimas novedades?</h2>
+            <div class="button-novedades">ESCUCHÁ LOS EPISODIOS</div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2019— Hello blue pale dot</p>
+        <div class="redes-sociales">
+            <a href="https://www.spotify.com/ar/"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://twitter.com/?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+            <a href="https://web.telegram.org/#/login"><i class="fa fa-telegram" aria-hidden="true"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
