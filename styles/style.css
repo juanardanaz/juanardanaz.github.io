@@ -245,6 +245,7 @@ input[type="checkbox"] {
     line-height: 42px;
     text-align: left;
     padding: 40px;
+    padding-left: 150px;
 }
 
 .imagenes-mujeres{
@@ -271,6 +272,7 @@ input[type="checkbox"] {
     line-height: 42px;
     text-align: left;
     padding: 40px;
+    padding-left: 150px;
 }
 
 .contenedor-temas{
@@ -346,6 +348,7 @@ footer{
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    line-height: 28px;
 }
 
 footer p{
@@ -541,10 +544,10 @@ footer div img{
     }
     .temas{
         font-size: 36px;
-        position: relative;
-        right: 32px;
         padding-bottom: 10px;
         padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .contenedor-temas{
         display: flex;
